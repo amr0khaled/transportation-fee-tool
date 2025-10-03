@@ -1,0 +1,21 @@
+@import '../../index.css';
+
+@layer components {
+  .header {
+    @apply w-full h-[10vh] bg-background text-foreground border-b border-foreground/30;
+    @apply flex justify-between items-center;
+    @apply px-2;
+    @apply sm:px-4;
+    @apply mb-4;
+
+    .brand {
+      @apply font-[Quicksand] text-xl;
+      @apply sm:text-2xl;
+    }
+
+    .list-buttons {
+      @apply flex gap-2;
+      @apply sm:gap-4;
+    }
+  }
+}
