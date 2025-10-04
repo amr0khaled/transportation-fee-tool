@@ -35,7 +35,7 @@ export default function Header() {
             </Button>
           </TooltipTrigger>
           <TooltipContent>
-            my Github account
+            Github repo
           </TooltipContent>
         </Tooltip>
         <Tooltip>
