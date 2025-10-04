@@ -37,3 +37,10 @@
   font-weight: 500;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Quicksand";
+  src: url(../assets/fonts/Quicksand-SemiBold.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}

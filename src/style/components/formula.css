@@ -1,0 +1,40 @@
+@import '../../index.css';
+
+@layer components {
+  .formula {
+    @apply w-96 sm:w-3/5 lg:w-2/5;
+    @apply flex flex-col gap-4;
+    @apply mt-20;
+
+    .block-input {
+      @apply flex flex-col justify-between gap-6;
+
+      .input-field {
+        @apply flex flex-col justify-between gap-2;
+        @apply sm:flex-row sm:gap-0;
+
+        label {
+          @apply text-lg font-[Quicksand] font-semibold;
+        }
+
+        .input-number {
+          @apply py-2 text-3xl text-center border-none outline-none;
+          @apply md:w-1/4;
+        }
+
+        .change-container {
+          @apply w-full md:w-1/4;
+          @apply flex justify-center items-center;
+
+          .change {
+            @apply flex justify-center items-center bg-secondary text-white;
+            @apply rounded-md text-3xl;
+            @apply px-4 py-1;
+          }
+        }
+
+
+      }
+    }
+  }
+}
