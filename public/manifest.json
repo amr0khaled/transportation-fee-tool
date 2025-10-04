@@ -3,6 +3,9 @@
   "start_url": "/",
   "display": "minimal",
   "id": "ograt-mashro3",
+  "scope": "/",
+  "theme_color": "#FBFBFB",
+  "description": "A simple SPA tool for assisting in calculating transportation fee",
   "icons": [
   {
     "purpose": "maskable",
