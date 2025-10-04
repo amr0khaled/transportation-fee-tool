@@ -29,7 +29,7 @@ export default function Header() {
           <TooltipTrigger asChild>
             <Button
               onClick={() => open('https://github.com/amr0khaled/transportation-fee-tool', '_blank')}
-              aria-label="my Github account"
+              aria-label="Github repo"
             >
               <FaGithub className='size-5 md:size-6' />
             </Button>
