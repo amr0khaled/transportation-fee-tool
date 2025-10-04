@@ -1,0 +1,32 @@
+{
+  "name": "Ograt Mashro3",
+  "start_url": "/",
+  "display": "minimal",
+  "id": "ograt-mashro3",
+  "icons": [
+  {
+    "purpose": "maskable",
+    "sizes": "256x256",
+    "src": "icons/maskable_icon.png",
+    "type": "image/png"
+  },
+  {
+    "purpose": "maskable",
+    "sizes": "48x48",
+    "src": "icons/maskable_icon_x48.png",
+    "type": "image/png"
+  },
+  {
+    "purpose": "maskable",
+    "sizes": "72x72",
+    "src": "icons/maskable_icon_x72.png",
+    "type": "image/png"
+  },
+  {
+    "purpose": "maskable",
+    "sizes": "96x96",
+    "src": "icons/maskable_icon_x96.png",
+    "type": "image/png"
+  }
+]
+}
