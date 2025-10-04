@@ -25,7 +25,7 @@ export default function Header() {
         <Tooltip>
           <TooltipTrigger asChild>
             <Button
-              onClick={() => open('https://github.com/amr0khaled', '_blank')}
+              onClick={() => open('https://github.com/amr0khaled/transportation-fee-tool', '_blank')}
               aria-label="my Github account"
             >
               <FaGithub className='size-5 md:size-6' />
@@ -39,13 +39,14 @@ export default function Header() {
           <TooltipTrigger asChild>
             <Button
               onClick={() => open('https://buymeacoffee.com/amr0khaled0x', '_blank')}
-              aria-label="Buy me coffee"
+              aria-label="Buy me a coffee"
+              className='bg-amber-300 hover:bg-amber-400 focus:bg-amber-500'
             >
-              <BiCoffeeTogo className='size-5' />
+              <BiCoffeeTogo className='size-5 text-black' />
             </Button>
           </TooltipTrigger>
           <TooltipContent>
-            Buy me Coffee
+            Buy me a Coffee
           </TooltipContent>
         </Tooltip>
       </ul>
